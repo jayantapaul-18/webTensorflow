@@ -1,0 +1,34 @@
+{
+  "name": "ai-detection",
+  "version": "1.0.0",
+  "description": "Detect AI based commencts , messages",
+  "main": "tfScript.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "http-server dist"
+  },
+  "keywords": [
+    "Nodejs",
+    "Tensorflow",
+    "AI",
+    "Machine",
+    "learning",
+    "API"
+  ],
+  "author": "Jayanta Paul",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.14.0",
+    "@tensorflow/tfjs": "^3.8.0",
+    "@tensorflow/tfjs-node": "^3.8.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "playwright": "^1.14.0",
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
