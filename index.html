@@ -3,8 +3,11 @@
  <title>Starting Tensorflow Machine learning using JavaScripts</title>
      <head>
       <meta charset="utf-8" />
+     <!-- Import TensorFlow.js -->
      <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
-     <script src="./dist/main.js"></script>
+     <!-- Import tfjs-vis -->
+     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
+     <script src="./main.js"></script>
      <script 
       window.addEventListener('load', (event) => {
              console.log('page is fully loaded');
@@ -18,9 +21,6 @@
      <button id="reload" type="button">Reload</button>
      </div>
 
-    <div class="event-log">
-    <label>Event log:</label>
-    <textarea readonly class="event-log-contents" rows="8" cols="30"></textarea>
-    </div>
+
     </body>
 </html>
